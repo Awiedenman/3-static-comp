@@ -1,0 +1,56 @@
+.graph {
+  width: 50%;
+}
+
+.graphs {
+  display: flex;
+  justify-content: space-around;
+}
+
+.graph_cirle-images {}
+.circle-graph {
+  height: 125px;
+  width: 125px;
+  border:5px gray solid;
+  border-radius: 70px;
+  display: inline-block;
+}
+
+.circle-graph_1 {
+  border-bottom: 5px solid #65BABF;
+}
+.circle-graph_2 {
+  border-left: 5px solid #44A2F4;
+  border-bottom: 5px solid #44A2F4;
+}
+.circle-graph_3 {
+  border-right: 5px solid #9D6CA2;
+  border-bottom: 5px solid #9D6CA2;
+}
+.circle-graph_label {
+  display: block;
+  border: 1px black solid;
+  border-radius: 40px;
+  width: 120px;
+  height: 30px;
+  vertical-align: middle;
+  text-align: center;
+}
+/*======================================*/
+.graph_bar-image { }
+
+.bar-graph {
+  background-image: url('../images/bar-chart copy.png');
+  background-size: 500px;
+  background-repeat: no-repeat;
+  height: 300px;
+  width:650px; 
+}
+.bar-graph_label {
+  display: block;
+  border: 1px black solid;
+  border-radius: 40px;
+  width: 120px;
+  height: 30px;
+  vertical-align: middle;
+  text-align: center;

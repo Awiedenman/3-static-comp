@@ -1,0 +1,142 @@
+.page_container {
+  display: inline-block;
+  border: 1px black solid;
+  width: calc(100% - 204px);
+  /*height: 100vh;*/
+  vertical-align: top;
+}
+
+.searchbar {
+}
+.searchbar_icon {}
+.searchbar_hamburger-icon {
+  background-image: url('../images/hamburger.svg');
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
+}
+.searchbar_searchfield {
+  height: 50px;
+  width: 75%;
+}
+.searchbar_user-icon {
+  background-image: url('../images/add-user.svg');
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
+}
+.searchbar_calendar-icon {
+  background-image: url('../images/search-calendar.svg');
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
+}
+
+.searchbar_waffle-icon {
+  background-image: url('../images/waffle.svg');
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
+}
+/*======================================*/
+.user-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: left;
+  margin: 20px 0;
+}
+
+.user-info button {
+  vertical-align: center;
+}
+
+.user-info_container {
+}
+.user-info_name-title {
+  margin: 20px 0 5px;
+}
+.user-info_location {
+  display: inline-block;
+  margin-left: 20px;
+
+}
+.user-info_preview {
+  display:inline-block;
+  margin-left: 10px;
+
+}
+/*--------------------------------------*/
+.user-info_buttons-contianer {
+  margin: 45px 0;
+}
+.user-info_buttons-open {
+  width: 90px;
+  height: 50px;
+  border-radius: 40px;
+}
+
+.user-info_buttons-bookmark {  
+  background-image: url('../images/bookmark.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 30px;
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
+  border-radius: 50px;
+}
+
+.user-info_buttons-edit {
+  background-image: url('../images/edit.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 30px;
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
+  border-radius: 50px;
+
+}
+
+.user-info_buttons-trash { 
+  background-image: url('../images/trash.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 30px;
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
+  border-radius: 50px;
+
+}
+/*======================================*/
+.nav-container {
+  margin: 20px 0 20px;
+  height: 65px;
+  border-bottom: 2px solid black;
+}
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px;
+  list-style-type: none;
+}
+
+.navbar-links {
+  display: inline-block;
+  text-decoration: none;
+  color: #9EA7B7;
+}
+
+.navbar-links:hover {
+  border-bottom: 4px solid #88C6F8;
+  padding-bottom: 45px;
+}
+
+
+
+
+
+ 
+}

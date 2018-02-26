@@ -1,0 +1,16 @@
+.resume {
+  width: 65%;
+}
+.resume_table {
+  border: 1px solid black;
+}
+td {
+  border-bottom: 1px black solid;
+  height: 50px;
+}
+.row1 {
+  width: 15%;
+}
+.row2 {
+  width: 45%;
+}

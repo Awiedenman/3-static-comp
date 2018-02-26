@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- <link rel="stylesheet" href="normalize.css"> -->
+  <link rel="stylesheet" type="text/css" href="stylesheets/index.css">
+  <title></title>
+</head>
+<body>
+  <aside class="drawer">
+    <article class="link-list_user">
+      <div class="drawer_user-img"></div>
+      <a class="drawer_user-name" href="">Conor Oberst<span class="down-carrot"></span></a>
+    </article>
+    <article class="link-list link-list_main">
+      <h3 class="drawer-title">Main</h3>
+      <a href="#" class="drawer-link drawer_link-home">Home</a>
+      <a href="#" class="drawer-link drawer_link-jobs">Jobs</a>
+      <a href="#" class="drawer-link drawer_link-resumes">Resumes</a>
+      <a href="#" class="drawer-link drawer_link-tasks">Tasks</a>
+      <a href="#" class="drawer-link drawer_link-calendar">Calendar</a>
+    </article>
+    <article class="link-list link-list_admin">
+      <h3 class= "drawer-title"Admin> Admin</h3>
+      <a href="#" class="drawer-link drawer_link-users" href="#">Users</a>
+      <a href="#" class="drawer-link drawer_link-locations"  >Locations</a>
+      <a href="#" class="drawer-link drawer_link-workflows" >Workflows</a>
+      <a href="#" class="drawer-link drawer_link-job-board" >Job Board</a>
+      <a href="#" class="drawer-link drawer_link-social" >Social</a>
+    </article>
+    <article class="drawer_checkbox-container link-list">
+      <h3 class="drawer-title">Categories</h3>
+      <label class="container">Administrative
+        <input type="checkbox" checked="checked">
+        <span class="checkmark"></span>
+      </label>
+      <label class="container">Design
+        <input type="checkbox">
+        <span class="checkmark"></span>
+      </label>
+      <label class="container">Executive
+        <input type="checkbox">
+        <span class="checkmark"></span>
+      </label>
+      <label class="container">Human Resources
+        <input type="checkbox">
+        <span class="checkmark"></span>
+      </label>
+    </article>
+  </aside>
+  <section class="page_container">
+    <form class="searchbar">
+      <button class="searchbar_icon searchbar_hamburger-icon"></button>
+      <input class="searchbar_searchfield" type="text" placeholder="Search for a job, task, or resume">
+      <button class="searchbar_icon searchbar_user-icon"></button>
+      <button class="searchbar_icon searchbar_calendar-icon"></button>
+      <button class="searchbar_icon searchbar_waffle-icon"></button>
+    </form>
+    <section class="user-info">
+      <div class="user-info_container">
+        <h1 class="user-info_name-title">Customer Service Representative</h1>
+        <h3 class="user-info_location">Omaha, NE</h3>
+        <a class="user-info_preview" href="">Preview this post</a>
+      </div>
+      <div class="user-info_buttons-contianer">
+        <button class="user-info_buttons-open">Open</button>
+        <button class="user-info_buttons-bookmark"></button>
+        <button class="user-info_buttons-edit"></button>
+        <button class="user-info_buttons-trash"></button>
+      </div>
+    </section>
+    <nav class="nav-container">
+      <ul class="navbar">
+        <li><a href="" class="navbar-links">Summary</a></li>
+        <li><a href="" class="navbar-links">Applicants</a></li>
+        <li><a href="" class="navbar-links">Job Board</a></li>
+        <li><a href="" class="navbar-links">Interviews</a></li>
+        <li><a href="" class="navbar-links">Activity</a></li>
+        <li><a href="" class="navbar-links">Broadcast</a></li>
+        <li><a href="" class="navbar-links">Notifications</a></li>
+      </ul>
+    </nav>
+    <section class="graphs">
+      <article class="graph graph_cirle-images">
+        <div class="circle-graph circle-graph_1"></div>
+        <div class="circle-graph circle-graph_2"></div>
+        <div class="circle-graph circle-graph_3"></div>
+        <button class="circle-graph_label">Totals</button>
+      </article>
+      <article class="graph graph_bar-image">
+        <div class="bar-graph"></div>
+        <button class="bar-graph_label">Applicants/Day</button>
+      </article>
+    </section>
+    <section class="resume">
+      <table class="resume_table">
+        <tr>
+          <td class="details__title row1">JOB DESCRIPTION 
+          </td>
+          <td class="details__title row2">
+            <button id="details__edit"><i class="fas fa-pencil-alt" aria-label="Edit icon"></i>EDIT</button>
+          </td>
+        </tr>
+        <tr>
+          <td class="row1">POSITION TITLE</td>
+          <td class="row2">Customer Service Representative</td>
+        </tr>
+        <tr>
+          <td class="row1">LOCATION</td>
+          <td class="row2">San Francisco, CA</td>
+        </tr>
+        <tr>
+          <td class="row1">EMPLOYMENT TYPE</td>
+          <td class="row2">Full-time</td>
+        </tr>
+        <tr>
+          <td class="row1">EXPERIENCE</td>
+          <td class="row2">Mid-level</td>
+        </tr>
+        <tr>
+          <td class="row1">STATUS</td>
+          <td class="row2">Open</td>
+        </tr>
+        <tr>
+          <td class="row1">DESCRIPTION</td>
+          <td class="row2">Lorem ipsum dolor sit amet, eu mea erant dicam. Et mea etiam dicant. Id mei novum insolens, sea no veniam ridens nusquam. Aliquam invidunt mediocritatem in pro, amet ridens meliore vix ea.</td>
+        </tr>
+        <tr>
+          <td class="row1">
+            <span class="details__hiring">HIRING LEAD</span>
+          </td>
+          <td class="row2" id="details__img--container">
+            <img src="imgs/cam.png" id="details__img">
+            <span class="tizzy-pic">Tom Tizzy</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row1 lastrow">APPROVED SALARY</td>
+          <td class="row2 lastrow" id="details__money">$58,000</td>
+        </tr>
+      </table>
+    </section>
+  </section>
+</body>
+</html>
