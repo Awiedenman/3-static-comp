@@ -1,56 +1,71 @@
-.graph {
-  width: 50%;
-}
-
 .graphs {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 50px;
 }
 
-.graph_cirle-images {}
+.graph_cirle-images {
+  width: 567px;
+}
+.circle-graph_container {
+  margin: 25px 8%;
+}
+
 .circle-graph {
-  height: 125px;
-  width: 125px;
-  border:5px gray solid;
-  border-radius: 70px;
+  height: 135px;
+  width: 135px;
+  border: 7px gray solid;
+  border-radius: 90px;
   display: inline-block;
+  margin: 10px;
 }
 
 .circle-graph_1 {
-  border-bottom: 5px solid #65BABF;
+  border-bottom: 10px solid #65BABF;
 }
+
 .circle-graph_2 {
-  border-left: 5px solid #44A2F4;
-  border-bottom: 5px solid #44A2F4;
+  border-left: 10px solid #44A2F4;
+  border-bottom: 10px solid #44A2F4;
 }
+
 .circle-graph_3 {
-  border-right: 5px solid #9D6CA2;
-  border-bottom: 5px solid #9D6CA2;
+  border-right: 10px solid #9D6CA2;
+  border-bottom: 10px solid #9D6CA2;
 }
+
 .circle-graph_label {
   display: block;
   border: 1px black solid;
   border-radius: 40px;
   width: 120px;
   height: 30px;
+  margin: 20px auto;
   vertical-align: middle;
   text-align: center;
 }
+
 /*======================================*/
-.graph_bar-image { }
+.graph_bar-image {
+  width: 45%; 
+}
 
 .bar-graph {
   background-image: url('../images/bar-chart copy.png');
-  background-size: 500px;
+  background-size: contain;
   background-repeat: no-repeat;
-  height: 300px;
-  width:650px; 
+  height: 190px;
+  /* width: 650px; */
+  /* background-position: -109px 9px; */ 
 }
+
 .bar-graph_label {
   display: block;
   border: 1px black solid;
   border-radius: 40px;
-  width: 120px;
+  /*width: 120px;*/
   height: 30px;
+  margin: 10px auto;
   vertical-align: middle;
   text-align: center;

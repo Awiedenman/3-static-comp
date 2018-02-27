@@ -4,13 +4,24 @@
 .resume_table {
   border: 1px solid black;
 }
-td {
-  border-bottom: 1px black solid;
-  height: 50px;
+tr {
+  height: 70px;
 }
+td {
+    border-bottom: 1px solid black;
+}
+
 .row1 {
   width: 15%;
 }
 .row2 {
   width: 45%;
+}
+
+.resume_title {
+  background-color: #717E93;
+}
+
+.description {
+  height: 200px;
 }
