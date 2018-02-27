@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta name="viewport" content="width=device-width">
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="stylesheets/index.css">
   <title></title>
@@ -8,10 +9,13 @@
 <body>
   <aside class="drawer">
     <article class="link-list link-list_user">
-      <div class="drawer_user-img"></div>
-      <a class="drawer_user-name" href="">Conor Oberst<span class="down-carrot"></span></a>
+      <div aria-label="User pisture" class="drawer_user-img">
+      </div>
+      <a aria-label="User name" class="drawer_user-name" href="">Conor Oberst
+        <span class="down-carrot"></span>
+      </a>
     </article>
-    <article class="link-list link-list_main">
+    <article aria-label="List of links, main" class="link-list link-list_main">
       <h3 class="drawer-title">Main</h3>
       <a href="#" class="drawer-link drawer_link-home">Home</a>
       <a href="#" class="drawer-link drawer_link-jobs">Jobs</a>
@@ -19,7 +23,7 @@
       <a href="#" class="drawer-link drawer_link-tasks">Tasks</a>
       <a href="#" class="drawer-link drawer_link-calendar">Calendar</a>
     </article>
-    <article class="link-list link-list_admin">
+    <article aria-label="List of links, admin"class="link-list link-list_admin">
       <h3 class= "drawer-title"Admin> Admin</h3>
       <a href="#" class="drawer-link drawer_link-users" href="#">Users</a>
       <a href="#" class="drawer-link drawer_link-locations"  >Locations</a>
@@ -47,7 +51,7 @@
       </label>
     </article>
   </aside>
-  <section class="page_container">
+  <main class="page_container">
     <form class="searchbar">
       <button class="searchbar_icon searchbar_hamburger-icon"></button>
       <input class="searchbar_searchfield" type="text" placeholder="Search for a job, task, or resume">
@@ -55,7 +59,7 @@
       <button class="searchbar_icon searchbar_calendar-icon"></button>
       <button class="searchbar_icon searchbar_waffle-icon"></button>
     </form>
-    <section class="user-info">
+    <section aria-label="user info" class="user-info">
       <div class="user-info_container">
         <h1 class="user-info_name-title">Customer Service Representative</h1>
         <h3 class="user-info_location">Omaha, NE</h3>
@@ -108,54 +112,85 @@
         <button class="bar-graph_label">Applicants/Day</button>
       </article>
     </section>
-    <section class="resume">
-      <table class="resume_table">
-        <tr class="resume_title">
-          <td class="resume_title row1">JOB DESCRIPTION 
-          </td>
-          <td class="details__title row2">
-            <button id="details_button-edit"><i class="fas fa-pencil-alt" aria-label="Edit icon"></i>EDIT</button>
-          </td>
-        </tr>
-        <tr>
-          <td class="row1">POSITION TITLE</td>
-          <td class="row2">Customer Service Representative</td>
-        </tr>
-        <tr>
-          <td class="row1">LOCATION</td>
-          <td class="row2">San Francisco, CA</td>
-        </tr>
-        <tr>
-          <td class="row1">EMPLOYMENT TYPE</td>
-          <td class="row2">Full-time</td>
-        </tr>
-        <tr>
-          <td class="row1">EXPERIENCE</td>
-          <td class="row2">Mid-level</td>
-        </tr>
-        <tr>
-          <td class="row1">STATUS</td>
-          <td class="row2">Open</td>
-        </tr>
-        <tr class="description">
-          <td class="row1">DESCRIPTION</td>
-          <td class="row2">Lorem ipsum dolor sit amet, eu mea erant dicam. Et mea etiam dicant. Id mei novum insolens, sea no veniam ridens nusquam. Aliquam invidunt mediocritatem in pro, amet ridens meliore vix ea.</td>
-        </tr>
-        <tr>
-          <td class="row1">
-            <span class="details__hiring">HIRING LEAD</span>
-          </td>
-          <td class="row2" id="details__img--container">
-            <img src="imgs/cam.png" id="details__img">
-            <span class="tizzy-pic">Tom Tizzy</span>
-          </td>
-        </tr>
-        <tr>
-          <td class="row1 lastrow">APPROVED SALARY</td>
-          <td class="row2 lastrow" id="details__money">$58,000</td>
-        </tr>
-      </table>
+    <section class="bottom-section_container">
+      <section class="resume">
+        <table class="resume_table">
+          <tr class="resume_title">
+            <td class="resume_title row1">JOB DESCRIPTION 
+            </td>
+            <td class="details__title row2">
+              <button id="details_button-edit"><i class="fas fa-pencil-alt" aria-label="Edit icon"></i>EDIT</button>
+            </td>
+          </tr>
+          <tr>
+            <td class="row1">POSITION TITLE</td>
+            <td class="row2">Customer Service Representative</td>
+          </tr>
+          <tr>
+            <td class="row1">LOCATION</td>
+            <td class="row2">San Francisco, CA</td>
+          </tr>
+          <tr>
+            <td class="row1">EMPLOYMENT TYPE</td>
+            <td class="row2">Full-time</td>
+          </tr>
+          <tr>
+            <td class="row1">EXPERIENCE</td>
+            <td class="row2">Mid-level</td>
+          </tr>
+          <tr>
+            <td class="row1">STATUS</td>
+            <td class="row2">Open</td>
+          </tr>
+          <tr class="description">
+            <td class="row1">DESCRIPTION</td>
+            <td class="row2">Lorem ipsum dolor sit amet, eu mea erant dicam. Et mea etiam dicant. Id mei novum insolens, sea no veniam ridens nusquam. Aliquam invidunt mediocritatem in pro, amet ridens meliore vix ea.</td>
+          </tr>
+          <tr>
+            <td class="row1">
+              <span class="details__hiring">HIRING LEAD</span>
+            </td>
+            <td class="row2" id="details__img--container">
+              <img src="imgs/cam.png" id="details__img">
+              <span class="tizzy-pic">Tom Tizzy</span>
+            </td>
+          </tr>
+          <tr>
+            <td class="row1 lastrow">APPROVED SALARY</td>
+            <td class="row2 lastrow" id="details__money">$58,000</td>
+          </tr>
+        </table>
+      </section>
+      <section class="social">
+        <article class="social-button_container">
+          <button class="social_button social_facebook">Post to Facbook</button>
+          <button class="social_button social_twitter">Tweet this job</button>
+          <button class="social_button social_linkedin">Post to Linkedin</button>
+        </article>
+        <article class="social-form_container"> 
+          <h2 class="social-title">Link to This Job</h2>
+          <p class="social-text"> The key to more success is to get a massage once a week, very important, major key, cloth talk.</p>
+          <form action="" class="social_form">
+            <input class="social-form_input" type="input" placeholder="https://www.google.com/search?q=khaled+ipsum&rlz=1C"></input>
+            <button class="social-form_button">Copy</button>
+            <hr>  
+          </form>
+            <h2 class="social-title">Use the Button Widget</h2>
+            <p class="social-text"> Look at the sunset, life is amazing, life is beautiful, life is what you make it. You smart, you loyal, you a genius.</p>
+          <form action="" class="social_form">
+            <input class="social-form_input" type="input"></input>
+            <button class="social-form_button">Copy</button>
+            <hr>  
+          </form>
+            <h2 class="social-title">Upload Resumes by Email</h2>
+            <p class="social-text"> Look at the sunset, life is amazing, life is beautiful, life is what you make it. You smart, you loyal, you a genius.</p>
+          <form action="" class="social_form">
+            <input class="social-form_input" type="input"></input>
+            <hr>  
+          </form>
+        </article> 
+      </section>
     </section>
-  </section>
+  </main>
 </body>
 </html>

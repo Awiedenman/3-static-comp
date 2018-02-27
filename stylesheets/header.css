@@ -5,46 +5,68 @@
   /*height: 100vh;*/
   vertical-align: top;
   background-color: #EEF2F6;
+  overflow: hidden;
 }
 
 .searchbar {
-  border: 2px #d6d7d8 solid;
+  border-bottom: : 2px #88C6F8 solid;
 }
 
 .searchbar_icon { 
-  background-size: 30px;
+  background-size: 20px;
   background-repeat: no-repeat;
-  background-position: 10px 10px; 
+  background-position: 22px 20px;
+  vertical-align: top;
+  width: 65px;
+  height: 65px; 
  }
 
 .searchbar_hamburger-icon {
   background-image: url('../images/hamburger.svg');
-  width: 50px;
-  height: 50px;
-  vertical-align: middle;
+  background-position: 24px 24px;
 }
+
 .searchbar_searchfield {
-  height: 50px;
-  width: calc(100% - 215px);
-}
+ /* background-image: url('../images/mag-glass.svg');
+  background-size: 25px;
+  background-repeat: no-repeat;
+  background-position: 22px 20px;
+  vertical-align: middle;*/
+  width: 65px;
+  height: 65px; 
+  height: 65px;
+  width: calc(100% - 275px);
+
+/*  padding-left: 50px;
+*/}
+
+.searchbar_searchfield::placeholder {
+  color: #DBE3E9;
+  font-size: 20px;
+  background-image: url('../images/mag-glass.svg');
+  background-size: 25px;
+  background-repeat: no-repeat;
+  background-position: 15px;
+  vertical-align: middle;
+  padding-left: 50px;
+
+
+} 
+
+
 .searchbar_user-icon {
   background-image: url('../images/add-user.svg');
-  width: 50px;
-  height: 50px;
-  vertical-align: middle;
+  background-size: 27px;
 }
+
 .searchbar_calendar-icon {
   background-image: url('../images/search-calendar.svg');
-  width: 50px;
-  height: 50px;
-  vertical-align: middle;
+  background-size: 25px;
 }
 
 .searchbar_waffle-icon {
   background-image: url('../images/waffle.svg');
-  width: 50px;
-  height: 50px;
-  vertical-align: middle;
+  background-position: 23px 22px;
 }
 
 .searchbar_hamburger-icon:hover {
@@ -73,7 +95,7 @@
 .user-info {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   text-align: left;
   margin: 20px 0;
 }
@@ -83,9 +105,10 @@
 }
 
 .user-info_container {
+  padding-left: 35px;
 }
 .user-info_name-title {
-  margin: 20px 0 5px;
+  margin: 30px 8px 5px;;
 }
 .user-info_location {
   display: inline-block;
@@ -101,7 +124,8 @@
 }
 /*--------------------------------------*/
 .user-info_buttons-contianer {
-  margin: 45px 0;
+  margin: 45px 43px;;
+  
 }
 
 .user-info_buttons {
@@ -156,7 +180,9 @@
   padding-bottom: 45px;
 }
 
-
+@media screen {max-width: 
+  
+}
 
 
 

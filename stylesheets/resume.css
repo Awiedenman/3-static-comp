@@ -1,7 +1,14 @@
+.bottom-section_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 .resume {
+  display: inline-block;
   width: 65%;
   padding: 0;
-  margin: 20px;
+  margin: 20px 0;
+  padding-left: 30px;
 }
 
 .resume_table {

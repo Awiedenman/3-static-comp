@@ -1,0 +1,45 @@
+.social {
+  display: inline-block;
+  flex-direction: column;
+  justify-content: space-between;
+  /*width: 20%;*/
+  padding-right: 30px;
+  width: 34%;
+}
+
+.social_button {
+  display: block;
+  height: 50px;
+  width: 95%;
+  border: 1px solid black;
+  margin: 20px;
+}
+
+/*.social_facebook {
+
+}
+
+.social_twitter {
+
+}
+
+.social_linkedin {
+
+}*/
+
+.social_form {
+  width: 95%;
+}
+
+.social-title {
+
+}
+
+.social-text {
+
+}
+
+.social-form_input{
+  width: 80%;
+}
+.social-form_button{}
