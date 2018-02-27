@@ -1,6 +1,10 @@
+body {
+  background-color: #374050;
+}
+
 .drawer {
   overflow: hidden;
-  border: 1px black solid;
+  /*border: 1px black solid;*/
   /*height: 100vh;*/
   width: 200px;
   display: inline-block; 
@@ -53,15 +57,15 @@
   width: calc(100%);
   padding-bottom: 20px;
   list-style-type: none; 
-  border-bottom: 1px solid #333A4B;
+  border-bottom: 1px solid #31384c;
 
 }
 
 .drawer-title {
   position: relative;
   left: 25px;
-  font-size: 15px;
-  margin: 25px 0;
+  font-size: 13px;
+  margin: 20px 0;
 }
 
 
@@ -138,7 +142,9 @@
 
 /*--------------------------------------*/
 
-.drawer_checkbox-title {}
+.drawer_checkbox-container {
+  border: none;
+}
 .checkbox {
   display: block;
 }
@@ -146,22 +152,50 @@
 .container {
   display: block;
   position: relative;
-  padding-left: 35px;
+  padding-left: 60px;
   margin-bottom: 12px;
   cursor: pointer;
-  font-size: 22px;
-  -webkit-user-select: none;
+  /*font-size: 22px;*/
+  /*-webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
-  user-select: none;
+  user-select: none;*/
+}
+
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
 }
 
 .container:hover input ~ .checkmark {
   background-color: #ccc;
 }
 
-.container input:checked ~ .checkmark {
-  background-color: #2196F3;
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  margin-left: 25px;
+}
+
+.checkmark1 {
+  background-color: #F9DD4C;
+}
+
+.checkmark2 {
+  background-color: #52AEF7;
+}
+
+.checkmark3 {
+  background-color: #DB3660;
+}
+
+.checkmark4 {
+  background-color: #4AA589;
 }
 
 .checkmark:after {
@@ -175,7 +209,7 @@
   top: 5px;
   width: 5px;
   height: 10px;
-  border: solid white;
+  border: solid black;
   border-width: 0 3px 3px 0;
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);

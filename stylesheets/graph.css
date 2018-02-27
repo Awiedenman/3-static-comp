@@ -5,7 +5,7 @@
   margin: 50px;
 }
 
-.graph_cirle-images {
+.graph_circle-images-container {
   width: 567px;
 }
 .circle-graph_container {
@@ -15,7 +15,7 @@
 .circle-graph {
   height: 135px;
   width: 135px;
-  border: 7px gray solid;
+  border: 7px #DBE3E9 solid;
   border-radius: 90px;
   display: inline-block;
   margin: 10px;
@@ -37,7 +37,7 @@
 
 .circle-graph_label {
   display: block;
-  border: 1px black solid;
+  border: 1px #E1E4E7 solid;
   border-radius: 40px;
   width: 120px;
   height: 30px;
@@ -62,7 +62,7 @@
 
 .bar-graph_label {
   display: block;
-  border: 1px black solid;
+  border: 1px #E1E4E7 solid;
   border-radius: 40px;
   /*width: 120px;*/
   height: 30px;

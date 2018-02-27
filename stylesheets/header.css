@@ -1,14 +1,22 @@
 .page_container {
   display: inline-block;
-  border: 1px black solid;
+  /*border: 1px black solid;*/
   width: calc(100% - 204px);
   /*height: 100vh;*/
   vertical-align: top;
+  background-color: #EEF2F6;
 }
 
 .searchbar {
+  border: 2px #d6d7d8 solid;
 }
-.searchbar_icon {}
+
+.searchbar_icon { 
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-position: 10px 10px; 
+ }
+
 .searchbar_hamburger-icon {
   background-image: url('../images/hamburger.svg');
   width: 50px;
@@ -17,7 +25,7 @@
 }
 .searchbar_searchfield {
   height: 50px;
-  width: 75%;
+  width: calc(100% - 215px);
 }
 .searchbar_user-icon {
   background-image: url('../images/add-user.svg');
@@ -37,6 +45,29 @@
   width: 50px;
   height: 50px;
   vertical-align: middle;
+}
+
+.searchbar_hamburger-icon:hover {
+  background-color: #45A4F4;
+  background-image: url('../images/hamburger2.svg');
+
+}
+
+.searchbar_user-icon:hover {
+  background-color: #45A4F4;
+  background-image: url('../images/add-user2.svg');
+
+}
+
+.searchbar_calendar-icon:hover {
+  background-color: #45A4F4;
+  background-image: url('../images/search-calendar2.svg');
+
+}
+
+.searchbar_waffle-icon:hover {
+  background-color: #45A4F4;
+  background-image: url('../images/waffle2.svg')
 }
 /*======================================*/
 .user-info {
@@ -64,57 +95,48 @@
 .user-info_preview {
   display:inline-block;
   margin-left: 10px;
+  text-decoration: none;
+  color: #92CAE5;
 
 }
 /*--------------------------------------*/
 .user-info_buttons-contianer {
   margin: 45px 0;
 }
+
+.user-info_buttons {
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50px;
+  height: 40px;
+  width: 40px;
+} 
+
 .user-info_buttons-open {
   width: 90px;
-  height: 50px;
   border-radius: 40px;
 }
 
 .user-info_buttons-bookmark {  
   background-image: url('../images/bookmark.svg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 30px;
-  width: 50px;
-  height: 50px;
-  vertical-align: middle;
-  border-radius: 50px;
-}
+  vertical-align: middle}
 
 .user-info_buttons-edit {
   background-image: url('../images/edit.svg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 30px;
-  width: 50px;
-  height: 50px;
   vertical-align: middle;
-  border-radius: 50px;
 
 }
 
 .user-info_buttons-trash { 
   background-image: url('../images/trash.svg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 30px;
-  width: 50px;
-  height: 50px;
-  vertical-align: middle;
-  border-radius: 50px;
-
+  vertical-align: middle
 }
 /*======================================*/
 .nav-container {
   margin: 20px 0 20px;
   height: 65px;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid #d6d7d8;
 }
 .navbar {
   display: flex;
