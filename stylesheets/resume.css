@@ -1,6 +1,6 @@
 .bottom-section_container {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: row;
   justify-content: space-between;
 }
 .resume {

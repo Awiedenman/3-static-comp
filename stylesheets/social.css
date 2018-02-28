@@ -1,7 +1,7 @@
 .social {
   display: inline-block;
-  flex-direction: column;
-  justify-content: space-between;
+  /*flex-direction: column;
+  justify-content: space-between;*/
   /*width: 20%;*/
   padding-right: 30px;
   width: 34%;
