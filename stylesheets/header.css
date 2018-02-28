@@ -150,11 +150,17 @@
   height: 65px;
   border-bottom: 2px solid #d6d7d8;
 }
+
+
 .navbar {
   display: flex;
   justify-content: space-around;
   margin: 50px;
   list-style-type: none;
+}
+
+.navbar-hidden {
+  display: none;
 }
 
 .navbar-links {
@@ -168,9 +174,16 @@
   padding-bottom: 45px;
 }
 
-@media screen {max-width: 
-  
+.nav-container_hidden {
+  display: inline-block;
 }
+
+
+
+
+
+
+
 
 
 
