@@ -9,7 +9,7 @@
 
 .social_button {
   display: block;
-  height: 50px;
+  height: 60px;
   width: 95%;
   border: 1px solid black;
   margin: 20px;
@@ -30,11 +30,11 @@
 
 .social_form {
   width: 95%;
-  margin: 20px;
+  margin: 25px 20px;
 }
 
 .social-title {
-  margin: 20px 0 10px 20px;
+  margin: 28px 0 10px 20px;
 }
 
 .social-text {

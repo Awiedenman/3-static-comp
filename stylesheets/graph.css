@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  width:100%;
   /*margin: 59px 52px;*/
 }
 
@@ -44,6 +45,20 @@
   margin: 26px auto;
   vertical-align: middle;
   text-align: center;
+}
+
+.circle-graph_text{
+  position: relative;
+  top: 53px;
+  margin-left: 47px;
+  font-size: 20px;
+}
+
+.circle-graph_number {
+  position: relative;
+  top: 46px;
+  margin-left: 34px;
+  font-size: 50px;
 }
 
 /*======================================*/
