@@ -1,8 +1,6 @@
 .page_container {
   display: inline-block;
-  /*border: 1px black solid;*/
   width: calc(100% - 204px);
-  /*height: 100vh;*/
   vertical-align: top;
   background-color: #EEF2F6;
   overflow: hidden;
@@ -27,18 +25,11 @@
 }
 
 .searchbar_searchfield {
- /* background-image: url('../images/mag-glass.svg');
-  background-size: 25px;
-  background-repeat: no-repeat;
-  background-position: 22px 20px;
-  vertical-align: middle;*/
   width: 65px;
   height: 65px; 
   height: 65px;
   width: calc(100% - 275px);
-
-/*  padding-left: 50px;
-*/}
+}
 
 .searchbar_searchfield::placeholder {
   color: #DBE3E9;
@@ -49,10 +40,7 @@
   background-position: 15px;
   vertical-align: middle;
   padding-left: 50px;
-
-
 } 
-
 
 .searchbar_user-icon {
   background-image: url('../images/add-user.svg');
@@ -125,7 +113,7 @@
 /*--------------------------------------*/
 .user-info_buttons-contianer {
   margin: 45px 43px;;
-  
+
 }
 
 .user-info_buttons {

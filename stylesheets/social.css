@@ -29,14 +29,18 @@
 
 .social_form {
   width: 95%;
+  margin: 20px;
+
 }
 
 .social-title {
+  margin: 20px;
+
 
 }
 
 .social-text {
-
+  margin: 20px;
 }
 
 .social-form_input{
