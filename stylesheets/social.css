@@ -4,7 +4,7 @@
   justify-content: space-between;*/
   /*width: 20%;*/
   padding-right: 30px;
-  width: 34%;
+  width: 100%;
 }
 
 .social_button {
@@ -54,4 +54,14 @@
   height: 50px;
   width: 15%;
 
+}
+
+.social-form_container {
+    width: 100%;
+  }
+
+.social_forms {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
