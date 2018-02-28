@@ -14,3 +14,49 @@
   color: #939AA4;
   font-family: 'Source Sans Pro', sans-serif;
 }
+
+@media (max-width: 1400px){
+  .graphs {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .graph_bar-image {
+    width: 100%; 
+  }
+
+  .bar-graph {
+    margin: 20px auto;
+    background-size: 598px;
+    height: 249px;
+    width: 573px;
+  }
+
+
+  .bar-graph_label {
+    margin: 0 auto 30px;
+  }  
+  
+  .graph_circle-images-container {
+    width: 637px;
+    margin: 0 auto;
+  }
+  
+  .circle-graph_container {
+    margin: 20px auto;
+  }
+
+  .circle-graph {
+    display: inline-block;
+    height: 190px;
+    width: 190px;
+    /*border: 7px #DBE3E9 solid;*/
+    border-radius: 120px;
+    margin: 10px;
+  }
+
+@media (max-width: 30em)
+@media screen and (max-width: 30em)
+@media screen and (max-width: 30em)
+@media screen and (max-width: 30em)

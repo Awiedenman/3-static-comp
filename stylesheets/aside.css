@@ -18,25 +18,25 @@ body {
 .drawer_user-img {
   background-image: url('../images/main-pic.jpg');
   background-position: center;
-  background-size: 100px;
+  background-size: 80px;
   background-repeat: no-repeat;
-  height: 100px;
-  width: 100px;
+  height: 80px;
+  width: 80px;
   border-radius: 100px;
-  margin: 20px auto;
+  margin: 30px auto 0;
 }
 
 .drawer_user-name {
   display: block;
   text-decoration: none;
-  margin: 20px 40px;
+  margin: 20px 55px;
   color: #9EA7B7;
   background-image: url(../images/down-arrow.svg);
-  background-size: 20px;
+  background-size: 10px;
   background-repeat: no-repeat;
   height: 20px;
   width: 100%;
-  background-position: 90px;
+  background-position: 94px 3px;
   }
 
 .drawer_user-name:hover {

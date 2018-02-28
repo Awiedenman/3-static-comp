@@ -2,22 +2,22 @@
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  margin: 50px;
+  /*margin: 59px 52px;*/
 }
 
 .graph_circle-images-container {
-  width: 567px;
+  width: 60%;
 }
 .circle-graph_container {
-  margin: 25px 8%;
+  margin: 20px 20px 20px 45px;
 }
 
 .circle-graph {
-  height: 135px;
-  width: 135px;
-  border: 7px #DBE3E9 solid;
-  border-radius: 90px;
   display: inline-block;
+  height: 190px;
+  width: 190px;
+  border: 7px #DBE3E9 solid;
+  border-radius: 120px;
   margin: 10px;
 }
 
@@ -41,31 +41,38 @@
   border-radius: 40px;
   width: 120px;
   height: 30px;
-  margin: 20px auto;
+  margin: 26px auto;
   vertical-align: middle;
   text-align: center;
 }
 
 /*======================================*/
 .graph_bar-image {
-  width: 45%; 
+  width: 40%; 
 }
 
 .bar-graph {
   background-image: url('../images/bar-chart copy.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 190px;
-  /* width: 650px; */
-  /* background-position: -109px 9px; */ 
+  background-size: 500px;
+    background-repeat: no-repeat;
+    height: 220px;
+    width: 614px;
+    margin: 20px 0;
 }
 
 .bar-graph_label {
   display: block;
   border: 1px #E1E4E7 solid;
   border-radius: 40px;
-  /*width: 120px;*/
+  width: 120px;
   height: 30px;
-  margin: 10px auto;
+  margin: 0 auto;
   vertical-align: middle;
   text-align: center;
+ }
+ 
+ .bottom-section-spacer {
+  size: 4px;
+  width: 90%;
+  color: #88C6F8;
+ } 
