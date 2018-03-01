@@ -3,12 +3,10 @@ body {
 }
 
 .drawer {
-  overflow: hidden;
-  /*border: 1px black solid;*/
-  /*height: 100vh;*/
-  width: 200px;
   display: inline-block; 
   background-color: #374050;
+  overflow: hidden;
+  width: 200px;
 }
 
 .link-list_user {
@@ -18,46 +16,38 @@ body {
 .drawer_user-img {
   background-image: url('../images/main-pic.jpg');
   background-position: center;
-  background-size: 80px;
   background-repeat: no-repeat;
-  height: 80px;
-  width: 80px;
+  background-size: 80px;
   border-radius: 100px;
+  height: 80px;
   margin: 30px auto 0;
+  width: 80px;
 }
 
 .drawer_user-name {
   display: block;
-  text-decoration: none;
-  margin: 20px 55px;
-  color: #9EA7B7;
   background-image: url(../images/down-arrow.svg);
-  background-size: 10px;
-  background-repeat: no-repeat;
-  height: 20px;
-  width: 100%;
   background-position: 94px 3px;
-  }
+  background-repeat: no-repeat;
+  background-size: 10px;
+  color: #9EA7B7;
+  height: 20px;
+  margin: 20px 55px;
+  text-decoration: none;
+  width: 100%;
+}
 
 .drawer_user-name:hover {
   color: #FFFFFF;
 } 
-/*
-.down-carrot {
-  background-image: url(../images/down-arrow.svg);
-  background-size: 10px;
-  background-repeat: no-repeat;
-  height: 20px;
-  width: 100%;
-  }
-*/
+
 /*-------------------------------------*/
 .link-list {
   display: inline-block;
-  width: calc(100%);
-  padding-bottom: 20px;
-  list-style-type: none; 
   border-bottom: 1px solid #31384c;
+  list-style-type: none; 
+  padding-bottom: 20px;
+  width: calc(100%);
 
 }
 
@@ -70,24 +60,23 @@ body {
 
 
 .drawer-link {
- /* position: relative;
-  left: 25px;*/
   display: block;
-  text-decoration: none;
-  background-size: 20px;
-  /*height: 20px;*/
-  background-repeat: no-repeat;
-  background-position: 25px 8px;
-  width: 100%;
-  padding: 10px 0 10px 55px;
-  color: #9EA7B7;
   vertical-align: middle;
+  background-position: 25px 8px;
+  background-repeat: no-repeat;
+  background-size: 20px;
+  color: #9EA7B7;
+  padding: 10px 0 10px 55px;
+  text-decoration: none;
+  width: 100%;
 }
 
 .drawer-link:hover {
   color: #FFFFFF;
   background-color: #313949;
-
+  border-left: 4px solid #88C6F8;
+  padding-left: 50px;
+  background-position: 21px 9px;
 }
 
 /*-------------------------------------*/
@@ -145,6 +134,7 @@ body {
 .drawer_checkbox-container {
   border: none;
 }
+
 .checkbox {
   display: block;
 }
@@ -152,14 +142,9 @@ body {
 .container {
   display: block;
   position: relative;
-  padding-left: 60px;
-  margin-bottom: 12px;
   cursor: pointer;
-  /*font-size: 22px;*/
-  /*-webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;*/
+  margin-bottom: 12px;
+  padding-left: 60px;
 }
 
 .container input {
@@ -176,10 +161,10 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  height: 25px;
-  width: 25px;
   background-color: #eee;
+  height: 25px;
   margin-left: 25px;
+  width: 25px;
 }
 
 .checkmark1 {
@@ -208,11 +193,9 @@ body {
   left: 9px;
   top: 5px;
   width: 5px;
-  height: 10px;
   border: solid black;
   border-width: 0 3px 3px 0;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
+  height: 10px;
   transform: rotate(45deg);
 }
 

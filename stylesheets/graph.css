@@ -1,27 +1,27 @@
   .graphs {
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
-    flex-wrap: wrap;
     width:100%;
-    /*margin: 59px 52px;*/
   }
 
   .graph_circle-images-container {
     width: 100%;
   }
+
   .circle-graph_container {
-    margin: 20px 20px 20px 45px;
     display: flex;
     justify-content: center;
+    margin: 27px 20px 20px 0;
   }
 
   .circle-graph {
     display: inline-block;
-    height: 190px;
-    width: 190px;
-    border: 7px #DBE3E9 solid;
     border-radius: 120px;
+    border: 7px #DBE3E9 solid;
+    height: 190px;
     margin: 10px;
+    width: 190px;
   }
 
   .circle-graph_1 {
@@ -40,56 +40,57 @@
 
   .circle-graph_label {
     display: block;
-    border: 1px #E1E4E7 solid;
+    vertical-align: middle;
     border-radius: 40px;
-    width: 120px;
+    border: 1px #E1E4E7 solid;
     height: 30px;
     margin: 26px auto;
-    vertical-align: middle;
     text-align: center;
+    width: 120px;
   }
 
   .circle-graph_text{
     position: relative;
-    top: 53px;
-    margin-left: 47px;
     font-size: 20px;
+    margin-left: 47px;
+    top: 53px;
   }
 
   .circle-graph_number {
     position: relative;
     top: 46px;
-    margin-left: 34px;
     font-size: 50px;
+    margin-left: 34px;
   }
 
   /*======================================*/
+
   .graph_bar-image {
     width: 40%; 
   }
 
   .bar-graph {
     background-image: url('../images/bar-chart copy.png');
-    background-size: 500px;
     background-repeat: no-repeat;
-    height: 220px;
+    background-size: 500px;
+    height: 226px;
+    margin: 29px 0 13px -31px;
     width: 614px;
-    margin: 40px 0 13px -20px;
   }
 
   .bar-graph_label {
     display: block;
-    border: 1px #E1E4E7 solid;
-    border-radius: 40px;
-    width: 120px;
-    height: 30px;
-    margin: 0 auto;
     vertical-align: middle;
     text-align: center;
-   }
+    border-radius: 40px;
+    border: 1px #E1E4E7 solid;
+    height: 30px;
+    margin: 0 auto;
+    width: 120px;
+  }
    
-   .bottom-section-spacer {
+  .bottom-section-spacer {
     size: 4px;
     width: 90%;
     color: #88C6F8;
-   } 
+  } 
