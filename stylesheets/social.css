@@ -1,80 +1,80 @@
-.social {
-  display: inline-block;
-  padding-right: 30px;
-  width: 48%;
-}
+  .social {
+    display: inline-block;
+    padding-right: 30px;
+    width: 48%;
+  }
 
-.social_button {
-  display: block;
-  height: 60px;
-  width: 100%;
-  border: 1px solid black;
-  margin: 20px 0;
-  color: white;
-}
+  .social_button {
+    display: block;
+    border: 1px solid black;
+    color: white;
+    height: 60px;
+    margin: 20px 0;
+    width: 100%;
+  }
 
-.social_facebook {
-  background-color: #5070BD;
-}
+  .social_facebook {
+    background-color: #5070BD;
+  }
 
-.social_twitter {
-  background-color: #44A7E9;
-}
+  .social_twitter {
+    background-color: #44A7E9;
+  }
 
-.social_linkedin {
-  background-color: #327FB8;
-}
+  .social_linkedin {
+    background-color: #327FB8;
+  }
 
-.social_form {
-  width: 100%;
-  margin: 25px 0;
-}
+  .social_form {
+    margin: 25px 0;
+    width: 100%;
+  }
 
-.social-title {
-  margin: 25px 0 10px;
-}
+  .social-title {
+    margin: 25px 0 10px;
+  }
 
-.social-text {
-  margin: 10px 0 29px;
-  height: 36px;
-  width: 100%;
-}
+  .social-text {
+    height: 36px;
+    margin: 10px 0 29px;
+    width: 100%;
+  }
 
-.social-form_input{
-  height: 50px;
-  width: 80%;
-  padding-left: 20px;
-  margin-top: 17px;
-}
+  .social-form_input{
+    height: 50px;
+    margin-top: 17px;
+    padding-left: 20px;
+    width: 80%;
+  }
 
-.social-form_input-email{
-  width: 100%;
-}
+  .social-form_input-email{
+    width: 100%;
+  }
 
-.social-form_button{
-  height: 50px;
-  width: 19%;
-  margin-left: -4px;
-  background-color: #67B7BC;
-  color: #FFFFFF;
-}
+  .social-form_button{
+    background-color: #67B7BC;
+    color: #FFFFFF;
+    height: 50px;
+    margin-left: -4px;
+    width: 19%;
+  }
 
-.social-form_container {
-  width: 100%;
-}
+  .social-form_container {
+    width: 100%;
+  }
 
-.social_forms {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
+  .social_forms {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
 
-#social-form_container_no-line{
-  border-top: none;
-}
+  #social-form_container_no-line{
+    border-top: none;
+  }
 
-.social-form_container{
-  border-top: 2px solid #d6d7d8;
-}
+  .social-form_container{
+    border-top: 2px solid #d6d7d8;
+  }
 
 
