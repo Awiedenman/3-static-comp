@@ -74,6 +74,9 @@ body {
 .drawer-link:hover {
   color: #FFFFFF;
   background-color: #313949;
+  border-left: 4px solid #88C6F8;
+  padding-left: 50px;
+  background-position: 21px 9px;
 }
 
 /*-------------------------------------*/
