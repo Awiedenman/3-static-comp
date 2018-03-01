@@ -83,7 +83,6 @@
   .searchbar_calendar-icon:hover {
     background-color: #45A4F4;
     background-image: url('../images/search-calendar-hover.svg');
-
   }
 
   .searchbar_waffle-icon:hover {
@@ -107,11 +106,12 @@
     padding-left: 5px;
     vertical-align: center;
   }
+
   .user-info button:hover {
     background-color: #92CAE5;
     opacity: 0.2;
   }
-
+  
   .user-info_container {
     padding-left: 35px;
   }
