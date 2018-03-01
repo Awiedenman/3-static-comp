@@ -6,11 +6,11 @@
 
   .social_button {
     display: block;
-    border: 1px solid black;
-    color: white;
     height: 60px;
     margin: 20px 0;
     width: 100%;
+    border: 1px solid black;
+    color: white;
   }
 
   .social_facebook {
@@ -36,15 +36,15 @@
 
   .social-text {
     height: 36px;
-    margin: 10px 0 29px;
     width: 100%;
+    margin: 10px 0 29px;
   }
 
   .social-form_input{
     height: 50px;
+    width: 80%;
     margin-top: 17px;
     padding-left: 20px;
-    width: 80%;
   }
 
   .social-form_input-email{
@@ -52,11 +52,11 @@
   }
 
   .social-form_button{
-    background-color: #67B7BC;
-    color: #FFFFFF;
     height: 50px;
     margin-left: -4px;
     width: 19%;
+    background-color: #67b7bc;
+    color: #fff;
   }
 
   .social-form_container {
