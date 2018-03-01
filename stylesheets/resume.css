@@ -2,12 +2,16 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  border-top: 2px solid #d6d7d8;
+  margin: 30px 30px;
+  padding-top: 30px;
 }
 .resume {
   display: inline-block;
   width: 100%;
   padding: 0;
   margin: 20px 0;
+  margin: 20px 45px;
 }
 
 .resume_table {
@@ -15,7 +19,7 @@
 }
 
 tr {
-  height: 70px;
+  height: 85px;
 }
 
 td {

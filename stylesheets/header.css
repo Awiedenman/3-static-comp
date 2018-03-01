@@ -4,10 +4,11 @@
   vertical-align: top;
   background-color: #EEF2F6;
   overflow: hidden;
+  min-width: 320px;
 }
 
 .searchbar {
-  border-bottom: : 2px #88C6F8 solid;
+  border-bottom: : 2px #d6d7d8 solid;
 }
 
 .searchbar_icon { 
@@ -17,6 +18,9 @@
   vertical-align: top;
   width: 65px;
   height: 65px; 
+  margin-right: -3px;
+  border-bottom: 2px solid #d6d7d8;
+  border-right: 2px solid #d6d7d8;
  }
 
 .searchbar_hamburger-icon {
@@ -28,7 +32,10 @@
   width: 65px;
   height: 65px; 
   height: 65px;
-  width: calc(100% - 275px);
+  width: calc(100% - 260px);
+  border-bottom: 2px solid #d6d7d8;
+  padding-left: 25px;
+  font-size: 20px;
 }
 
 .searchbar_searchfield::placeholder {
@@ -37,7 +44,7 @@
   background-image: url('../images/mag-glass.svg');
   background-size: 25px;
   background-repeat: no-repeat;
-  background-position: 15px;
+  background-position: 20px;
   vertical-align: middle;
   padding-left: 50px;
 } 
@@ -45,6 +52,8 @@
 .searchbar_user-icon {
   background-image: url('../images/add-user.svg');
   background-size: 27px;
+  margin-left: -4px;
+  border-left: 2px solid #d6d7d8;
 }
 
 .searchbar_calendar-icon {
@@ -55,6 +64,7 @@
 .searchbar_waffle-icon {
   background-image: url('../images/waffle.svg');
   background-position: 23px 22px;
+  border-right: none;
 }
 
 .searchbar_hamburger-icon:hover {
@@ -90,6 +100,13 @@
 
 .user-info button {
   vertical-align: center;
+  border: 1px solid #d6d7d8;
+  font-weight: 700;
+  padding-left: 5px;
+}
+.user-info button:hover {
+  opacity: 0.2;
+  background-color: #92CAE5;
 }
 
 .user-info_container {
@@ -113,7 +130,6 @@
 /*--------------------------------------*/
 .user-info_buttons-contianer {
   margin: 45px 43px;;
-
 }
 
 .user-info_buttons {
@@ -189,4 +205,3 @@
 
 
  
-}

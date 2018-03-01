@@ -1,16 +1,15 @@
   .graphs {
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
+    flex-direction: row;
     width:100%;
-    /*margin: 59px 52px;*/
   }
 
   .graph_circle-images-container {
     width: 100%;
   }
   .circle-graph_container {
-    margin: 20px 20px 20px 45px;
+    margin: 27px 20px 20px 0;
     display: flex;
     justify-content: center;
   }
@@ -72,9 +71,9 @@
     background-image: url('../images/bar-chart copy.png');
     background-size: 500px;
     background-repeat: no-repeat;
-    height: 220px;
+    height: 226px;
     width: 614px;
-    margin: 40px 0 13px -20px;
+    margin: 29px 0 13px -31px;
   }
 
   .bar-graph_label {

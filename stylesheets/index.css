@@ -56,8 +56,16 @@
     width: 190px;
      border-radius: 120px;
   }
+}
+
+@media screen and (max-width: 1258px){
+  .social_linkedin {
+    margin-bottom: 0px;
+  }
+}
 
 @media (max-width: 1180px){
+   
    .social-form_container {
     width: 30%;
   }
@@ -87,15 +95,64 @@
   }
 
   .social {
-    width: 87%;
+    width: 800px;
     padding-right: 0;
     margin-top: 50px
+  }
+
+  .social_button {
+    display: block;
+    height: 60px;
+    width: 800px;
+    border: 1px solid black;
+    /*margin: 20px 57px;*/
+    color: white;
+  }
+  #social-form_container_no-line{
+    border-top: 2px solid #d6d7d8;
+  } 
+
+  .social-title {
+    height: 30px;
+    margin-bottom: 34px;
+    text-align: center;
+  }
+
+  .social-text {
+    text-align: center;
+  }
+
+  .social_linkedin {
+    margin-bottom: 70px;
   }
 }
 
 @media screen and (max-width: 840px){
   .resume {
     width: 600px;
+  }
+
+  .social {
+    width: 600px;
+  }
+
+  .social_button {
+    width: 600px;
+  }
+  
+  .social-form_input {
+    margin-top: 7px;
+  }  
+
+  .social_forms {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .social-form_container {
+    width: 100%;
   }
 }
 
@@ -109,6 +166,10 @@
   .user-info_buttons-contianer {
     margin: 26px 43px;
   }
+
+  /*.user-info_buttons{
+    margin-right: 0px;
+  /*}why is this media query not taking over?*/
 }
 
 @media screen and (max-width: 670px){
@@ -136,18 +197,12 @@
 
   .resume {
     width: 450px;
-    height: 720px;
     display: block;
   }
 
   .desktop {
     display: none;
   }
-
-  /*.navbar-links {
-    font-size: 35px;
-    padding-bottom: 40px;
-  }*/
 
   .navbar-links:hover{
     border-bottom: 4px solid #88C6F8;
@@ -164,55 +219,32 @@
     align-items: center;
   }
 
-  /*.navbar-hidden {
-    display: inline-block;
-    margin: 50px;
-    list-style-type: none;
-    padding-left: 15px;
-  }*/
-
-  /*.nav-container {
-    height: 0;
-  } */
-/*
-  .nav-container_hidden {
-    vertical-align: top;
-  }*/
-}
-.circle-graph_container {
+  .circle-graph_container {
     display: inline-block;
     margin: 20px auto;
     width: auto;
     vertical-align: top
   }
 
-  .desktop{
-    display: none;
+  .social {
+    width: 450px;
   }
 
+  .social_button {
+    width: 450px;
+  }
+  
+  .social-form_input {
+    margin-top: 0;
+  }
+
+  .social-title {
+    margin-bottom: 19px;
+  }
 }
-@media screen and (max-width: 580px){
 
- 
+@media screen and (max-width: 605px){
 
- /* .navbar {
-    display: inline-block;
-    padding-bottom: 45px;
-  }*/
-
-/*  .navbar-links {
-    font-size: 35px;
-    padding-bottom: 40px;
-  }*/
-
-/*  .navbar_hidden {
-    display: none;
-  }
-
-  .nav-container_hidden {
-    display: none;
-  }
-*/
   .resume {
     display: none;
   }
@@ -235,6 +267,9 @@
 
   .searchbar_searchfield::placeholder{
     font-size: 15px;
+    height: 20px;
+    padding: 20px;
+    background-image: none;
   }
 
   .user-info_buttons{
@@ -246,6 +281,37 @@
   }
 }
 
-@media screen and (max-width: em)
-@media screen and (max-width: 30em)
-@media screen and (max-width: 30em)
+
+@media screen and (max-width: 485px){
+  .bar-graph {
+    background-size: 315px;
+    height: 137px;
+    width: 315px;
+  }
+
+  .social {
+    width: 305px;
+  }
+
+  .social_button {
+    width: 305px;
+    margin: 30px auto;
+  }
+
+ /* .social-form_input {
+    display: none;
+    margin-top: 62px;
+  }
+*/
+ /* .social-title {
+    margin-bottom: 65px; 
+  }*/
+
+  .resume {
+    display: none;
+  }
+
+  .circle-graph_label{
+    margin: 10px auto 26px;
+  }
+}
