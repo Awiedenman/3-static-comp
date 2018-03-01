@@ -51,6 +51,10 @@
 
   #details_button-edit {
     background-color: #7E8BA6;
+    background-image: url(../images/edit.svg);
+    background-repeat: no-repeat;
+    background-size: 17px;
+    background-position: 9px 6px;
     color: #FFFFFF;
     height: 30px;
     margin: 20px;

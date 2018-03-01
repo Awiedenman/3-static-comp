@@ -70,25 +70,25 @@
 
   .searchbar_hamburger-icon:hover {
     background-color: #45A4F4;
-    background-image: url('../images/hamburger2.svg');
+    background-image: url('../images/hamburger-hover.svg');
 
   }
 
   .searchbar_user-icon:hover {
     background-color: #45A4F4;
-    background-image: url('../images/add-user2.svg');
+    background-image: url('../images/add-user-hover.svg');
 
   }
 
   .searchbar_calendar-icon:hover {
     background-color: #45A4F4;
-    background-image: url('../images/search-calendar2.svg');
+    background-image: url('../images/search-calendar-hover.svg');
 
   }
 
   .searchbar_waffle-icon:hover {
     background-color: #45A4F4;
-    background-image: url('../images/waffle2.svg')
+    background-image: url('../images/waffle-hover.svg')
   }
 
   /*======================================*/
@@ -159,7 +159,7 @@
   }
 
   .user-info_buttons-edit {
-    background-image: url('../images/edit.svg');
+    background-image: url('../images/edit-user-info.svg');
     vertical-align: middle;
 
   }
