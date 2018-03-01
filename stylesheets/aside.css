@@ -1,204 +1,249 @@
-body {
-  background-color: #374050;
-}
+  body {
+    background-color: #374050;
+  }
 
-.drawer {
-  display: inline-block; 
-  background-color: #374050;
-  overflow: hidden;
-  width: 200px;
-}
+  .drawer {
+    display: inline-block; 
+    overflow: hidden;
+    background-color: #374050;
+    width: 200px;
+  }
 
-.link-list_user {
-  border-bottom: 1px solid #333A4B;
-}
+  .link-list_user {
+    border-bottom: 1px solid #333a4b;
+  }
 
-.drawer_user-img {
-  background-image: url('../images/main-pic.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 80px;
-  border-radius: 100px;
-  height: 80px;
-  margin: 30px auto 0;
-  width: 80px;
-}
+  .drawer_user-img {
+    height: 80px;
+    margin: 30px auto 0;
+    width: 80px;
+    background-image: url('../images/main-pic.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 80px;
+    border-radius: 100px;
+  }
 
-.drawer_user-name {
-  display: block;
-  background-image: url(../images/down-arrow.svg);
-  background-position: 94px 3px;
-  background-repeat: no-repeat;
-  background-size: 10px;
-  color: #9EA7B7;
-  height: 20px;
-  margin: 20px 55px;
-  text-decoration: none;
-  width: 100%;
-}
+  .drawer_user-name {
+    height: 20px;
+    margin: 20px 55px;
+    width: 100%;
+    display: block;
+    background-image: url(../images/down-arrow.svg);
+    background-position: 94px 3px;
+    background-repeat: no-repeat;
+    background-size: 10px;
+    color: #9ea7b7;
+    text-decoration: none;
+  }
 
-.drawer_user-name:hover {
-  color: #FFFFFF;
-} 
+  .drawer_user-name:hover {
+    background-image: url(../images/down-arrow-hover.svg);
+  }
 
-/*-------------------------------------*/
-.link-list {
-  display: inline-block;
-  border-bottom: 1px solid #31384c;
-  list-style-type: none; 
-  padding-bottom: 20px;
-  width: calc(100%);
+  .drawer_user-name:hover {
+    color: #fff;
+  } 
 
-}
+  /*-------------------------------------*/
 
-.drawer-title {
-  position: relative;
-  left: 25px;
-  font-size: 13px;
-  margin: 20px 0;
-}
+  .link-list {
+    display: inline-block;
+    width: 100%;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #31384c;
+    list-style-type: none; 
+  }
 
+  .drawer-title {
+    position: relative;
+    left: 25px;
+    margin: 20px 0;
+    font-size: 13px;
+  }
 
-.drawer-link {
-  display: block;
-  vertical-align: middle;
-  background-position: 25px 8px;
-  background-repeat: no-repeat;
-  background-size: 20px;
-  color: #9EA7B7;
-  padding: 10px 0 10px 55px;
-  text-decoration: none;
-  width: 100%;
-}
+  .drawer-link {
+    display: block;
+    vertical-align: middle;
+    padding: 10px 0 10px 55px;
+    width: 100%;
+    background-position: 25px 8px;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    color: #9ea7b7;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
 
-.drawer-link:hover {
-  color: #FFFFFF;
-  background-color: #313949;
-  border-left: 4px solid #88C6F8;
-  padding-left: 50px;
-  background-position: 21px 9px;
-}
+  .drawer-link:hover {
+    padding-left: 50px;
+    color: #fff;
+    background-color: #313949;
+    border-left: 4px solid #88c6f8;
+    background-position: 21px 9px;
+  }
 
-/*-------------------------------------*/
-.link-list_main{
-  display: block;
-}
+  /*-------------------------------------*/
 
-.drawer_link-home {
-  background-image: url('../images/home.svg');
-}
+  .link-list_main {
+    display: block;
+  }
 
-.drawer_link-jobs {
-  background-image: url('../images/jobs.svg');
-}
+  .drawer_link-home {
+    background-image: url('../images/home.svg');
+  }
 
-.drawer_link-resumes {
-  background-image: url('../images/resume.svg');
-}
+   .drawer_link-home:hover {
+    background-image: url('../images/home-hover.svg');
+  }
 
-.drawer_link-tasks {
-  background-image: url('../images/tasks.svg');
-}
+  .drawer_link-jobs {
+    background-image: url('../images/jobs.svg');
+  }
 
-.drawer_link-calendar {
+  .drawer_link-jobs:hover {
+    background-image: url('../images/jobs-hover.svg');
+  }
+
+  .drawer_link-resumes {
+    background-image: url('../images/resume.svg');
+  }
+
+  .drawer_link-resumes:hover {
+    background-image: url('../images/resume-hover.svg');
+  }
+
+  .drawer_link-tasks {
+    background-image: url('../images/tasks.svg');
+  }
+
+  .drawer_link-tasks:hover {
+    background-image: url('../images/tasks-hover.svg');
+  }
+
+  .drawer_link-calendar {
     background-image: url('../images/calendar.svg');
-}
+  }
 
-/*-------------------------------------*/
+   .drawer_link-calendar:hover {
+    background-image: url('../images/calendar-hover.svg');
+  }
 
-.link-list_admin {
-  display: block;
-}
+  /*-------------------------------------*/
 
-.drawer_link-users {
-  background-image: url('../images/users.svg');
-}
+  .link-list_admin {
+    display: block;
+  }
 
-.drawer_link-locations {
-  background-image: url('../images/location.svg');
-}
+  .drawer_link-users {
+    background-image: url('../images/users.svg');
+  }
 
-.drawer_link-workflows {
-  background-image: url('../images/workflow.svg');
-}
-.drawer_link-job-board {
-  background-image: url('../images/job-boards.svg');
-}
+  .drawer_link-users:hover {
+    background-image: url('../images/users-hover.svg');
+  }
 
-.drawer_link-social {
-  background-image: url('../images/social.svg');
-}
+  .drawer_link-locations {
+    background-image: url('../images/location.svg');
+  }
 
-/*--------------------------------------*/
+  .drawer_link-locations:hover {
+    background-image: url('../images/location-hover.svg');
+  }
 
-.drawer_checkbox-container {
-  border: none;
-}
+  .drawer_link-workflows {
+    background-image: url('../images/workflow.svg');
+  }
 
-.checkbox {
-  display: block;
-}
+  .drawer_link-workflows:hover {
+    background-image: url('../images/workflow-hover.svg');
+  }
 
-.container {
-  display: block;
-  position: relative;
-  cursor: pointer;
-  margin-bottom: 12px;
-  padding-left: 60px;
-}
+  .drawer_link-job-board {
+    background-image: url('../images/job-boards.svg');
+  }
 
-.container input {
-  position: absolute;
-  opacity: 0;
-  cursor: pointer;
-}
+  .drawer_link-job-board:hover {
+    background-image: url('../images/job-boards-hover.svg');
+  }
 
-.container:hover input ~ .checkmark {
-  background-color: #ccc;
-}
+  .drawer_link-social {
+    background-image: url('../images/social.svg');
+  }
 
-.checkmark {
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: #eee;
-  height: 25px;
-  margin-left: 25px;
-  width: 25px;
-}
+  .drawer_link-social:hover {
+    background-image: url('../images/social-hover.svg');
+  }
+  /*--------------------------------------*/
 
-.checkmark1 {
-  background-color: #F9DD4C;
-}
+  .drawer_checkbox-container {
+    border: none;
+  }
 
-.checkmark2 {
-  background-color: #52AEF7;
-}
+  .checkbox {
+    display: block;
+  }
 
-.checkmark3 {
-  background-color: #DB3660;
-}
+  .container {
+    position: relative;
+    display: block;
+    margin-bottom: 12px;
+    padding-left: 60px;
+    cursor: pointer;
+  }
 
-.checkmark4 {
-  background-color: #4AA589;
-}
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
 
-.checkmark:after {
-  content: "";
-  position: absolute;
-  display: none;
-}
+  .container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
 
-.container .checkmark:after {
-  left: 9px;
-  top: 5px;
-  width: 5px;
-  border: solid black;
-  border-width: 0 3px 3px 0;
-  height: 10px;
-  transform: rotate(45deg);
-}
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #eee;
+    height: 25px;
+    margin-left: 25px;
+    width: 25px;
+  }
 
-.container input:checked ~ .checkmark:after {
-  display: block;
-}
+  .checkmark1 {
+    background-color: #F9DD4C;
+  }
+
+  .checkmark2 {
+    background-color: #52AEF7;
+  }
+
+  .checkmark3 {
+    background-color: #DB3660;
+  }
+
+  .checkmark4 {
+    background-color: #4AA589;
+  }
+
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+
+  .container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    height: 10px;
+    transform: rotate(45deg);
+  }
+
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }

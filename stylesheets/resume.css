@@ -2,9 +2,9 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border-top: 2px solid #d6d7d8;
     margin: 30px 30px;
     padding-top: 30px;
+    border-top: 2px solid #d6d7d8;
   }
   .resume {
     display: inline-block;
@@ -15,7 +15,7 @@
   }
 
   .resume_table {
-    background-color: #FFFFFF;
+    background-color: #fff;
   }
 
   tr {
@@ -23,8 +23,8 @@
   }
 
   td {
-    border-bottom: 1px gray solid;
     padding-left: 35px;
+    border-bottom: 1px gray solid;
   }
 
   table { 
@@ -41,8 +41,8 @@
   }
 
   .resume_title {
-    background-color: #717E93;
-    color: #FFFFFF;
+    background-color: #717e93;
+    color: #fff;
   }
 
   .description {
@@ -50,15 +50,20 @@
   }
 
   #details_button-edit {
-    background-color: #7E8BA6;
+    height: 30px;
+    width: 70px;
+    margin: 20px;
+    padding-right: 5px;
+    text-align: right;
+    background-color: #7e8ba6;
     background-image: url(../images/edit.svg);
     background-repeat: no-repeat;
     background-size: 17px;
     background-position: 9px 6px;
-    color: #FFFFFF;
-    height: 30px;
-    margin: 20px;
-    padding-right: 5px;
-    text-align: right;
-    width: 70px;
+    color: #fff;
+  }
+
+  #details_button-edit:hover {
+    background-color: #92cae5;
+    opacity: 0.4;
   }

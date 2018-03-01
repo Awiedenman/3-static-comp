@@ -18,49 +18,49 @@
   .circle-graph {
     display: inline-block;
     border-radius: 120px;
-    border: 7px #DBE3E9 solid;
+    border: 7px #dbe3e9 solid;
     height: 190px;
     margin: 10px;
     width: 190px;
   }
 
   .circle-graph_1 {
-    border-bottom: 10px solid #65BABF;
+    border-bottom: 10px solid #65babf;
   }
 
   .circle-graph_2 {
-    border-left: 10px solid #44A2F4;
-    border-bottom: 10px solid #44A2F4;
+    border-left: 10px solid #44a2f4;
+    border-bottom: 10px solid #44a2f4;
   }
 
   .circle-graph_3 {
-    border-right: 10px solid #9D6CA2;
-    border-bottom: 10px solid #9D6CA2;
+    border-right: 10px solid #9d6ca2;
+    border-bottom: 10px solid #9d6ca2;
   }
 
   .circle-graph_label {
     display: block;
     vertical-align: middle;
-    border-radius: 40px;
-    border: 1px #E1E4E7 solid;
-    height: 30px;
     margin: 26px auto;
-    text-align: center;
     width: 120px;
+    height: 30px;
+    border-radius: 40px;
+    border: 1px #e1e4e7 solid;
+    text-align: center;
   }
 
   .circle-graph_text{
     position: relative;
-    font-size: 20px;
-    margin-left: 47px;
     top: 53px;
+    margin-left: 47px;
+    font-size: 20px;
   }
 
   .circle-graph_number {
     position: relative;
     top: 46px;
-    font-size: 50px;
     margin-left: 34px;
+    font-size: 50px;
   }
 
   /*======================================*/
@@ -70,23 +70,23 @@
   }
 
   .bar-graph {
-    background-image: url('../images/bar-chart copy.png');
-    background-repeat: no-repeat;
-    background-size: 500px;
     height: 226px;
     margin: 29px 0 13px -31px;
     width: 614px;
+    background-image: url('../images/bar-chart copy.png');
+    background-repeat: no-repeat;
+    background-size: 500px;
   }
 
   .bar-graph_label {
     display: block;
     vertical-align: middle;
     text-align: center;
-    border-radius: 40px;
-    border: 1px #E1E4E7 solid;
     height: 30px;
     margin: 0 auto;
     width: 120px;
+    border-radius: 40px;
+    border: 1px #e1e4e7 solid;
   }
    
   .bottom-section-spacer {

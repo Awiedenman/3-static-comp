@@ -1,10 +1,9 @@
   .page_container {
     display: inline-block;
+    overflow: hidden;
     vertical-align: top;
     width: calc(100% - 204px);
-    overflow: hidden;
-    
-    background-color: #EEF2F6;
+    background-color: #eef2f6;
     min-width: 320px;
   }
 
@@ -13,15 +12,15 @@
   }
 
   .searchbar_icon { 
+    height: 65px; 
+    width: 65px;
+    margin-right: -3px;
     background-position: 22px 20px;
     background-repeat: no-repeat;
     background-size: 20px;
     border-bottom: 2px solid #d6d7d8;
     border-right: 2px solid #d6d7d8;
-    height: 65px; 
-    margin-right: -3px;
     vertical-align: top;
-    width: 65px;
    }
 
   .searchbar_hamburger-icon {
@@ -33,28 +32,26 @@
     border-bottom: 2px solid #d6d7d8;
     font-size: 20px;
     height: 65px;
-    height: 65px; 
     padding-left: 25px;
-    width: 65px;
     width: calc(100% - 260px);
   }
 
   .searchbar_searchfield::placeholder {
+    padding-left: 50px;
     background-image: url('../images/mag-glass.svg');
     background-position: 20px;
     background-repeat: no-repeat;
     background-size: 25px;
-    color: #DBE3E9;
-    font-size: 20px;
-    padding-left: 50px;
     vertical-align: middle;
+    font-size: 20px;
+    color: #DBE3E9;
   } 
 
   .searchbar_user-icon {
-    background-image: url('../images/add-user.svg');
-    background-size: 27px;
     border-left: 2px solid #d6d7d8;
     margin-left: -4px;
+    background-image: url('../images/add-user.svg');
+    background-size: 27px;
   }
 
   .searchbar_calendar-icon {
@@ -96,15 +93,15 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 20px 0;
+    background-color: #FFF;
     text-align: left;
   }
 
   .user-info button {
-    border: 1px solid #d6d7d8;
-    font-weight: 700;
     padding-left: 5px;
     vertical-align: center;
+    border: 1px solid #d6d7d8;
+    font-weight: 700;
   }
 
   .user-info button:hover {
@@ -117,18 +114,25 @@
   }
 
   .user-info_name-title {
-    margin: 30px 8px 5px;;
+    margin: 30px 8px 5px;
   }
 
   .user-info_location {
     display: inline-block;
-    margin-left: 20px;
+    padding-left: 25px;
+    margin-left: 10px;
+    background-image: url('../images/location2.svg'); 
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: -2px 1px;
+    font-weight: 400;
+    font-size: 20px;
   }
 
   .user-info_preview {
     display:inline-block;
-    color: #92CAE5;
     margin-left: 10px;
+    color: #92CAE5;
     text-decoration: none;
   }
 
@@ -139,49 +143,53 @@
   }
 
   .user-info_buttons {
+    margin-right: 10px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 20px;
     border-radius: 50px;
     height: 40px;
-    margin-right: 10px;
     width: 40px;
   } 
 
   .user-info_buttons-open {
-    border-radius: 40px;
     width: 90px;
+    background-image: url('../images/circle.svg');
+    background-size: 10px;
+    background-position: 12px;
+    border-radius: 40px;
   }
 
   .user-info_buttons-bookmark {  
+    vertical-align: middle;
     background-image: url('../images/bookmark.svg');
-    vertical-align: middle
   }
 
   .user-info_buttons-edit {
-    background-image: url('../images/edit-user-info.svg');
     vertical-align: middle;
+    background-image: url('../images/edit-user-info.svg');
 
   }
 
   .user-info_buttons-trash { 
+    vertical-align: middle;
     background-image: url('../images/trash.svg');
-    vertical-align: middle
   }
 
   /*======================================*/
   
   .nav-container {
+    height: 100px;
+    margin: 0 0 20px;
     border-bottom: 2px solid #d6d7d8;
-    height: 65px;
-    margin: 20px 0 20px;
+    background-color: #FFF;
   }
 
   .navbar {
     display: flex;
     justify-content: space-around;
+    background-color: #FFF;
     list-style-type: none;
-    margin: 50px;
   }
 
   .navbar-hidden {
@@ -190,13 +198,15 @@
 
   .navbar-links {
     display: inline-block;
-    color: #9EA7B7;
+    color: #9ea7b7;
     text-decoration: none;
+    padding-top: 32px;
+    text-transform: uppercase;
   }
 
   .navbar-links:hover {
-    border-bottom: 4px solid #88C6F8;
     padding-bottom: 45px;
+    border-bottom: 4px solid #88C6F8;
   }
 
   .nav-container_hidden {
