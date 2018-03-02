@@ -21,7 +21,7 @@
     border-bottom: 2px solid #d6d7d8;
     border-right: 2px solid #d6d7d8;
     vertical-align: top;
-   }
+  }
 
   .searchbar_hamburger-icon {
     background-image: url('../images/hamburger.svg');
@@ -139,7 +139,7 @@
   /*--------------------------------------*/
 
   .user-info_buttons-contianer {
-    margin: 45px 43px;;
+    margin: 45px 43px;
   }
 
   .user-info_buttons {
@@ -213,7 +213,22 @@
     display: inline-block;
   }
 
+  .navbar_arrow-left {
+    display: none;
+    background-image: url('../images/rewind.svg');
+    background-size: 20px;
+    height: 20px; 
+    width: 20px;
+  }
 
+  .navbar_arrow-right {
+    display: none;
+    background-image: url('../images/fast-forward.svg');
+    background-size: 20px;
+    height: 20px; 
+    width: 20px;
+    padding-left: 5px;
+  }
 
 
 

@@ -33,7 +33,6 @@
     width: 573px;
   }
 
-
   .bar-graph_label {
     margin: 0 auto 30px;
   }  
@@ -56,15 +55,27 @@
     height: 190px;
     width: 190px;
   }
+
+   .social_button {
+    background-position: 55px 18px;
+  }
 }
 
 @media screen and (max-width: 1258px){
   .social_linkedin {
     margin-bottom: 0px;
   }
+
+  .social_button {
+    background-position: 45px 18px;
+  }
 }
 
 @media (max-width: 1180px){
+
+  .social_button {
+    background-position: 314px 18px;
+  }
    
    .social-form_container {
     width: 30%;
@@ -134,8 +145,13 @@
 }
 
 @media screen and (max-width: 840px){
+
   .resume {
     width: 600px;
+  }
+
+   .social_button {
+    background-position: 222px 18px;
   }
 
   .social {
@@ -206,9 +222,30 @@
     display: none;
   }
 
+  .navbar_arrow-left {
+    display: inline-block;
+  }
+
+  .navbar_arrow-right {
+    display: inline-block;
+  }
+  
+  .navbar_arrow-left:hover {
+    background-image: url('../images/rewind-hover.svg');
+  }
+
+  .navbar_arrow-right:hover {
+    background-image: url('../images/fast-forward-hover.svg');
+  }
+
+  .navbar-links {
+    padding: 0 12px;
+  }
+
   .navbar-links:hover{
-    border-bottom: 4px solid #88C6F8;
-    padding-bottom: 1px;
+    color: #88C6F8;
+    border-bottom: none;
+    padding: 0 12px;
   }
 
   .nav-container{
@@ -232,6 +269,10 @@
     width: 450px;
   }
 
+   .social_button {
+    background-position: 145px 18px;
+  }
+
   .social_button {
     width: 450px;
   }
@@ -246,10 +287,6 @@
 }
 
 @media screen and (max-width: 605px){
-
-  .resume {
-    display: none;
-  }
 
   .searchbar_user-icon {
     display: none;
@@ -285,6 +322,7 @@
 
 
 @media screen and (max-width: 485px){
+  
   .bar-graph {
     background-size: 315px;
     height: 137px;
@@ -298,6 +336,7 @@
   .social_button {
     width: 305px;
     margin: 30px auto;
+    background-position: 70px 18px;
   }
 
   .resume {
