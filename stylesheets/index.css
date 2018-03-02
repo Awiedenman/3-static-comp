@@ -113,7 +113,6 @@
 
   .social_button {
     display: block;
-    border: 1px solid black;
     color: white;
     height: 60px;
     width: 800px;
@@ -269,11 +268,8 @@
     width: 450px;
   }
 
-   .social_button {
-    background-position: 145px 18px;
-  }
-
   .social_button {
+    background-position: 145px 18px;
     width: 450px;
   }
   
